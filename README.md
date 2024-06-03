@@ -73,44 +73,41 @@ For detailed exploratory data analysis and insights, you can refer to the Jupyte
 ## Results
 
 ### Logistic Regression
-              precision    recall  f1-score   support
+|            | precision | recall | f1-score | support |
+|------------|-----------|--------|----------|---------|
+| 0          | 0.92      | 0.95   | 0.93     | 531     |
+| 1          | 0.93      | 0.88   | 0.91     | 390     |
+| **accuracy** |           |        | 0.92     | 921     |
+| **macro avg**    | 0.92  | 0.92   | 0.92     | 921     |
+| **weighted avg** | 0.92  | 0.92   | 0.92     | 921     |
 
-           0       0.92      0.95      0.93       531
-           1       0.93      0.88      0.91       390
-
-    accuracy                           0.92       921
-   macro avg       0.92      0.92      0.92       921
-weighted avg       0.92      0.92      0.92       921
-
-Confusion Matrix:
+**Confusion Matrix**:
  [[505  26]
  [ 46 344]]
 
 ### Random Forest
-              precision    recall  f1-score   support
+|            | precision | recall | f1-score | support |
+|------------|-----------|--------|----------|---------|
+| 0          | 0.94      | 0.98   | 0.96     | 531     |
+| 1          | 0.97      | 0.92   | 0.94     | 390     |
+| **accuracy** |           |        | 0.95     | 921     |
+| **macro avg**    | 0.96  | 0.95   | 0.95     | 921     |
+| **weighted avg** | 0.96  | 0.95   | 0.95     | 921     |
 
-           0       0.94      0.98      0.96       531
-           1       0.97      0.92      0.94       390
-
-    accuracy                           0.95       921
-   macro avg       0.96      0.95      0.95       921
-weighted avg       0.96      0.95      0.95       921
-
-Confusion Matrix:
+**Confusion Matrix**:
  [[521  10]
  [ 32 358]]
 
 ### XGBoost
-              precision    recall  f1-score   support
+|            | precision | recall | f1-score | support |
+|------------|-----------|--------|----------|---------|
+| 0          | 0.95      | 0.98   | 0.96     | 531     |
+| 1          | 0.97      | 0.94   | 0.96     | 390     |
+| **accuracy** |           |        | 0.96     | 921     |
+| **macro avg**    | 0.96  | 0.96   | 0.96     | 921     |
+| **weighted avg** | 0.96  | 0.96   | 0.96     | 921     |
 
-           0       0.95      0.98      0.96       531
-           1       0.97      0.94      0.95       390
-
-    accuracy                           0.96       921
-   macro avg       0.96      0.96      0.96       921
-weighted avg       0.96      0.96      0.96       921
-
-Confusion Matrix:
+**Confusion Matrix**:
  [[518  13]
  [ 25 365]]
 
