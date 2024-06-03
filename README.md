@@ -7,7 +7,7 @@ This project aims to classify spam mails using machine learning techniques. This
 The goal of this project is to build and evaluate machine learning models to classify emails as spam or not spam. The project utilizes Logistic Regression, Random Forest, and XGBoost classifiers to perform the classification task.
 
 ## Directory Structure
-
+```
 Spam-Mail-Classification/
 │
 ├── spambase/ # Public dataset folder
@@ -22,7 +22,7 @@ Spam-Mail-Classification/
 ├── Spam mail classification.ipynb # Jupyter Notebook for Exploratory Data Analysis
 ├── requirements.txt # List of dependencies
 └── README.md # Project documentation
-
+```
 
 ## Installation
 
