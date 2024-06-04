@@ -13,5 +13,5 @@
 #please place the path of your calls.db file on your local machine here
 DB_PATH = r'C:\Users\Ken\Documents\AISG Assessment\AIAP 17 Assessment\calls.db'
 
-#if using public data
-PUBLIC_DATA_PATH = r'C:\Users\Ken\Documents\Code Projects\Spam Call Classification\spambase\spambase.data'
+#if using public data(spambase.data from UCSI)
+PUBLIC_DATA_PATH = r'C:\Users\Ken\Documents\Code Projects\Spam Mail Classification\spambase\spambase.data'
