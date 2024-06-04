@@ -82,8 +82,10 @@ For detailed exploratory data analysis and insights, you can refer to the Jupyte
 | **weighted avg** | 0.92  | 0.92   | 0.92     | 921     |
 
 **Confusion Matrix**:
-|[[505  26]|
-|[ 46 344]]|
+|                  | Predicted: No | Predicted: Yes |
+|------------------|---------------|----------------|
+| **Actual: No**   |      505      |       26       |
+| **Actual: Yes**  |      46       |      344       |
 
 ### Random Forest
 |            | precision | recall | f1-score | support |
@@ -95,8 +97,10 @@ For detailed exploratory data analysis and insights, you can refer to the Jupyte
 | **weighted avg** | 0.96  | 0.95   | 0.95     | 921     |
 
 **Confusion Matrix**:
-|[[521  10]|
-|[ 32 358]]|
+|                  | Predicted: No | Predicted: Yes |
+|------------------|---------------|----------------|
+| **Actual: No**   |      521      |       10       |
+| **Actual: Yes**  |      32       |      358       |
 
 ### XGBoost
 |            | precision | recall | f1-score | support |
@@ -108,8 +112,10 @@ For detailed exploratory data analysis and insights, you can refer to the Jupyte
 | **weighted avg** | 0.96  | 0.96   | 0.96     | 921     |
 
 **Confusion Matrix**:
-|[[518  13]|
-|[ 25 365]]|
+|                  | Predicted: No | Predicted: Yes |
+|------------------|---------------|----------------|
+| **Actual: No**   |      518      |       13       |
+| **Actual: Yes**  |      25       |      365       |
 
 
 ## Contributing
